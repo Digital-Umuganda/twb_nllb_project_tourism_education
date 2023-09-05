@@ -61,9 +61,23 @@ Other than the dataset changes between phase one, and phase two finetuning; no o
 
 #### Metrics
 
-Model performance was measured using BLEU, spBLEU, and chrF++ metrics.
+Model performance was measured using BLEU, spBLEU, TER, and chrF++ metrics.
 
 ### Results
+#### Tourism metrics:
+
+|Lang. Direction| BLEU |  spBLEU  | chrf++ |TER   |
+|:----|:----:|:----:|:----:|----:|
+| Eng -> Kin     | 28.37   | 40.62 | 56.48 |   59.71   |
+| Kin -> Eng     | 42.54   |  44.84  |   61.54 |  43.87     |
+
+
+#### Education metrics:
+
+|Lang. Direction| BLEU |  spBLEU  | chrf++ |TER   |
+|:----|:----:|:----:|:----:|----:|
+| Eng -> Kin     | 45.96   | 59.20 | 68.79 |   41.61    |
+| Kin -> Eng     | 43.98   |  44.94  |   63.05 |  41.41     |
 
 <!-- [More Information Needed] -->
 
