@@ -2,9 +2,9 @@
 
 ---
 ## Datasets:
-- mbazaNLP/NMT_Tourism_parallel_data_en_kin
-- mbazaNLP/NMT_Education_parallel_data_en_kin
-- mbazaNLP/Kinyarwanda_English_parallel_dataset
+- [mbazaNLP/NMT_Tourism_parallel_data_en_kin](https://huggingface.co/datasets/mbazaNLP/NMT_Tourism_parallel_data_en_kin)
+- [mbazaNLP/NMT_Education_parallel_data_en_kin](https://huggingface.co/datasets/mbazaNLP/NMT_Education_parallel_data_en_kin)
+- [mbazaNLP/Kinyarwanda_English_parallel_dataset](https://huggingface.co/datasets/mbazaNLP/Kinyarwanda_English_parallel_dataset)
 #### Languages:
 - en
 - rw
