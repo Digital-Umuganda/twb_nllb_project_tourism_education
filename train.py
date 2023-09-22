@@ -13,7 +13,6 @@ en_kin_tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-1.
 kin_en_tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-1.3B", src_lang=KIN_LANG_CODE, tgt_lang=EN_LANG_CODE)
 wandb.init(entity='')
 
-
 edu_train = pd.read_csv("education_train_data.tsv",sep="\t")
 tourism_train = pd.read_csv("tourism_train_data.tsv",sep="\t")
 du_train = pd.read_csv("du_train.tsv",sep="\t")
