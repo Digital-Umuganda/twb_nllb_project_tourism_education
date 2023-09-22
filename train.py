@@ -101,7 +101,6 @@ tokenized_val_data = concatenate_datasets([en_kin_tokenized_val_data,kin_en_toke
 
 metric = load_metric("sacrebleu")
 
-
 def metrics_calc(data):
     preds, true_labels = data
     decoded_preds = en_kin_tokenizer.batch_decode(preds, skip_special_tokens = True)
